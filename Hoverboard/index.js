@@ -138,4 +138,3 @@ function setMode(Elm, mode){
         Full_mode = true
         show()}
 }
-
