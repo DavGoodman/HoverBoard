@@ -1,0 +1,112 @@
+
+body{
+    background-color: rgb(15, 15, 15);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+#container div{
+    background: rgb(32, 32, 32);
+    height: 15px;
+    margin: 2px;
+}
+
+
+#container .square:not(:hover){
+    transition: all 1s linear;
+    background: rgb(32, 32, 32) !important;
+    box-shadow: none !important;
+
+
+}
+
+.styles{
+
+    margin-bottom: 30px;
+}
+
+.styles button{
+    font-size: xxx-large;
+    margin: 0 30px;
+    background: transparent;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+;
+}
+
+.Disco:hover{
+    color: rgb(255, 134, 215);
+    text-shadow: 0 0 20px rgb(233, 62, 167);
+    border: 2px solid rgb(218, 87, 213);
+    box-shadow: 0 0 20px rgb(233, 62, 167);
+}
+
+.Iceland:hover{
+    color: rgb(95, 180, 226);
+    text-shadow: 0 0 20px rgb(62, 156, 233);
+    border: 2px solid rgb(94, 137, 217);
+    box-shadow: 0 0 20px rgb(62, 153, 233);
+}
+
+.Norway:hover{
+    color: rgb(207, 37, 37);
+    text-shadow: 0 0 20px rgb(215, 56, 56);
+    border: 2px solid rgb(227, 38, 38);
+    box-shadow: 0 0 20px rgb(209, 16, 16);
+}
+
+
+.D_activated{
+    color: rgb(255, 134, 215);
+    text-shadow: 0 0 20px rgb(233, 62, 167);
+    border: 2px solid rgb(218, 87, 213);
+    box-shadow: 0 0 20px rgb(233, 62, 167);
+}
+
+.I_activated{
+    color: rgb(95, 180, 226);
+    text-shadow: 0 0 20px rgb(62, 156, 233);
+    border: 2px solid rgb(94, 137, 217);
+    box-shadow: 0 0 20px rgb(62, 153, 233);
+}
+
+.N_activated{
+    color: rgb(207, 37, 37);
+    text-shadow: 0 0 20px rgb(215, 56, 56);
+    border: 2px solid rgb(227, 38, 38);
+    box-shadow: 0 0 20px rgb(209, 16, 16);
+}
+
+
+.modes{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.modes button{
+    font-size: large;
+    background: transparent;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.modes button:hover{
+    color: white;
+    text-shadow: 0 0 20px white;
+    border: 2px solid white;
+    box-shadow: 0 0 20px white;
+}
+
+.activeButton{
+    color: white;
+    text-shadow: 0 0 20px white;
+    border: 2px solid white;
+    box-shadow: 0 0 20px white;
+}

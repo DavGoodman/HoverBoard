@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="styles">
+        <button onclick="setStyle('disco')"  class="Disco D_activated">Disco</button>
+        <button onclick="setStyle('iceland')" class="Iceland">Icelandic</button>
+        <button onclick="setStyle('norway')"  class="Norway">Norwegian</button>
+    </div>
+
+    <div class="modes">
+        <button class="activeButton" onclick="setMode(this, 'hover')">Hover Mode</button>
+        <button onclick="setMode(this, 'paint')">Paint Mode</button>
+        <button onclick="setMode(this, 'full')">Full Mode</button>
+    </div>
+    
+    <div id="container">
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
